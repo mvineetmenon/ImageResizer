@@ -4,7 +4,19 @@ ImageResizer
 General Description
 -------------------
 
-Python script for resizing an image depeding upon the aspect ratio user provides
+Python script for resizing an image depeding upon the aspect ratio user provides. The resizing is from center i.e. the center of both the images will be same.
+
+Dependency
+----------
+
+###Necessary Libraries###
+* Python
+* Python Imaging Library (PIL)
+	can be installed with command `sudo apt-get install python-imaging`. Please consult local documentation for specific instruction.
+
+###Recommended Funtionality###
+* PIL preview feature
+	on linux machine, `sudo ln -s /usr/bin/eog /usr/bin/xv`. PIL uses a program called xv for previewing. In ubuntu installation, this behavior can be altered and instead of xv, the default image viewer `eog` can be used by creating a symlink.
 
 API
 ---
