@@ -12,7 +12,7 @@ class ImageResizer:
 
 	def resizeImage(self, ratio):
 		print "Original Size of image", self.imagesize
-		if self.imageratio == 1280.0/800.0:
+		if self.imageratio == ratio:
 			print "Ratio Perfect, ", self.imageratio 
 		elif(self.imageratio > ratio):
 			#length if larger than required, length needs to be cropped
