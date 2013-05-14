@@ -36,11 +36,11 @@ By default, the module when invoked directly by python interpreter, takes the fi
 Example
 -------
 
-[[/example/lena.jpg|frame|alt=Original Image]]
+[[example/lena.jpg|frame|alt=Original Image]]
 
-[[/example/0.8/lena-489x612.jpg|frame|alt=Resized with ratio 0.8]]
+[[example/0.8/lena-489x612.jpg|frame|alt=Resized with ratio 0.8]]
 
-[[/example/1/lena-612x612.jpg|frame|alt=Resized with ratio 1]]
+[[example/1/lena-612x612.jpg|frame|alt=Resized with ratio 1]]
 
-[[/example/1.6/lena-979x612.jpg|frame|alt=Resized with ratio 1.6]]
+[[example/1.6/lena-979x612.jpg|frame|alt=Resized with ratio 1.6]]
 
