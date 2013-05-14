@@ -35,12 +35,11 @@ By default, the module when invoked directly by python interpreter, takes the fi
 
 Example
 -------
-
-[[example/lena.jpg|frame|alt=Original Image]]
-
-[[example/0.8/lena-489x612.jpg|frame|alt=Resized with ratio 0.8]]
-
-[[example/1/lena-612x612.jpg|frame|alt=Resized with ratio 1]]
-
-[[example/1.6/lena-979x612.jpg|frame|alt=Resized with ratio 1.6]]
-
+[Original Image](/example/lena.jpg)
+The Original Image
+[Resized image with ratio 0.8](/example/0.8/lena-489x612.jpg)
+Image resized with ratio 0.8 `ImageResizer.py ~/lena.jpg 0.8`
+[Resized image with ratio 1.0](/example/1/lena-612x612.jpg)
+Image resized with ratio 1.0 `ImageResizer.py ~/lena.jpg 1`
+[Resized image with ratio 1.6](/example/1.6/lena-979x612.jpg)
+Image resized with ratio 1.6 `ImageResizer.py ~/lena.jpg 1.6`
