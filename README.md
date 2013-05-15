@@ -6,6 +6,11 @@ General Description
 
 Python script for resizing an image depeding upon the aspect ratio user provides. The resizing is from center i.e. the center of both the images will be same.
 
+Use Case
+--------
+
+This script is for doing bulk resizing of images on command line.
+
 Dependency
 ----------
 
