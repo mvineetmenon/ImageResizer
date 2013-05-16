@@ -45,7 +45,7 @@ As a batch for images in a directory --
     
 	for f in ~/images/*.jpg
 	do 
-	    python src/ResizeWallpaper.py $f 1.6
+	    python src/ResizeWallpaper.py $f 1200.0/800.0
 	done
 
 Example
