@@ -33,11 +33,12 @@ After the class is instanciated, another method `resizeImage(ratio)` can be invo
 By default, the module when invoked directly by python interpreter, takes the filename and the ratio, in order as command line argument.
 ### API Example ###
 
-    im = ImageResizer("/usr/local/vineet/Picture/pic1.jpg")
+    im = ImageResizer("/usr/local/vineet/Picture/lena.jpg")
     im.resizeImage(1280.0/800.0)
 
 
 
+    ImageResizer.py ~/lena.jpg 1280.0/800.0
 Example
 -------
 
